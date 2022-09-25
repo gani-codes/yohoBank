@@ -23,7 +23,10 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-
+import netflix from "./netflix.svg";
+import dribble from "./dribble.svg";
+import manulife from "./manulife.svg";
+import paypal from "./paypal.svg";
 export {
   airbnb,
   bill,
@@ -50,4 +53,8 @@ export {
   people01,
   people02,
   people03,
+  dribble,
+  netflix,
+  manulife,
+  paypal,
 };

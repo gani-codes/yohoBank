@@ -9,12 +9,6 @@
   gap: 1.5rem;
 }
 
-.about__left h4 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  line-height: 160%;
-}
-
 .about__right {
   display: flex;
   justify-content: space-between;
@@ -25,6 +19,13 @@
 .about__right-content {
   display: flex;
   justify-content: space-between;
+  transition: var(--transition);
+  border-radius: 20px;
+  padding: 1rem 0.5rem;
+}
+.about__right-content:hover {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
 .about__right-content h5 {
@@ -68,13 +69,13 @@
   .text-light {
     max-width: fit-content;
   }
+  .about__right-content-text {
+    width: 100%;
+  }
 }
 /* For mobiles/small device */
 @media screen and (max-width: 600px) {
   .text-light {
     max-width: 100%;
-  }
-  .about__left h4 {
-    font-size: 1.9rem;
   }
 }

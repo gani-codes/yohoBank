@@ -1,4 +1,22 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+  dribble,
+  netflix,
+  manulife,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -193,5 +211,28 @@ export const clients = [
   {
     id: "client-4",
     logo: dropbox,
+  },
+];
+export const transactions = [
+  {
+    id: 1,
+    icon: dribble,
+    party: "Dribbble Pro",
+    txnDate: "4 Days ago",
+    txnAmount: "-$250,93",
+  },
+  {
+    id: 2,
+    icon: netflix,
+    party: "Netflix",
+    txnDate: "9 Days ago",
+    txnAmount: "-$43.00",
+  },
+  {
+    id: 3,
+    icon: manulife,
+    party: "Manulife Cash",
+    txnDate: "15 Days ago",
+    txnAmount: "-$250.93",
   },
 ];
