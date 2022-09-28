@@ -1,0 +1,33 @@
+.cta__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 6rem;
+  margin-bottom: 5rem;
+
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 20px;
+}
+
+/* For tablet/medium devices */
+@media screen and (max-width: 1024px) {
+  .cta__container {
+    padding: 2rem 2rem;
+  }
+}
+/* For mobiles/small device */
+@media screen and (max-width: 600px) {
+  .cta__container {
+    flex-direction: column;
+    padding: 1rem 1rem;
+    gap: 2.5rem;
+  }
+}

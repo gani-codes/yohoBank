@@ -27,6 +27,7 @@ import netflix from "./netflix.svg";
 import dribble from "./dribble.svg";
 import manulife from "./manulife.svg";
 import paypal from "./paypal.svg";
+import symbol from "./symbol.svg";
 export {
   airbnb,
   bill,
@@ -57,4 +58,5 @@ export {
   netflix,
   manulife,
   paypal,
+  symbol,
 };

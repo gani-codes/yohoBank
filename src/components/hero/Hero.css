@@ -112,6 +112,9 @@
 }
 /* For mobiles/small device */
 @media screen and (max-width: 600px) {
+  .discount__content {
+    margin-top: 7rem;
+  }
   .hero__container {
     margin-top: 2rem;
     flex-wrap: wrap;

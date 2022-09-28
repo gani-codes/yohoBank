@@ -1,7 +1,7 @@
 .billing__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 12rem;
+  margin-top: 18rem;
 }
 
 .billing__right {

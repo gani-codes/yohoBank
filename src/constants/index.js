@@ -21,18 +21,22 @@ import {
 export const navLinks = [
   {
     id: "home",
+    link: "home",
     title: "Home",
   },
   {
     id: "features",
+    link: "pay",
     title: "Features",
   },
   {
     id: "product",
+    link: "billing",
     title: "Product",
   },
   {
     id: "clients",
+    link: "clients",
     title: "Clients",
   },
 ];

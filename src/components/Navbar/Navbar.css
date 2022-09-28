@@ -1,3 +1,11 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-bg);
+  z-index: 5000;
+}
 .nav__container {
   height: 50px;
   margin-top: 2rem;

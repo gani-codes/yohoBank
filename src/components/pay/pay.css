@@ -1,0 +1,31 @@
+.pay__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.pay__container-left {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  gap: 2rem;
+}
+
+.pay__container-right {
+  padding: 0 4rem;
+}
+.pay__container-right img {
+  margin: auto;
+}
+
+/* For tablet/medium devices */
+@media screen and (max-width: 1024px) {
+  .pay__container {
+    grid-template-columns: 1fr;
+  }
+}
+/* For mobiles/small device */
+@media screen and (max-width: 600px) {
+  .pay__container-right img {
+    margin: 0;
+  }
+}
